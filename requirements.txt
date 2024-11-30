@@ -1,0 +1,6 @@
+folium
+geopandas
+h3
+jupyterlab
+matplotlib
+notebook
