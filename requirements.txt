@@ -1,6 +1,10 @@
 folium
 geopandas
 h3
+ipython-sql
 jupyterlab
 matplotlib
 notebook
+prettytable
+psycopg
+python-dotenv
