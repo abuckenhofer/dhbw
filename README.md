@@ -12,9 +12,10 @@ uv pip install -r requirements.txt
 Create a .env file with entries:
 ```
 OPENAI_API_KEY=
-DB_HOST=
-DB_NAME=
-DB_USER=
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=postgres
+DB_USERNAME=postgres
 DB_PASSWORD=
 ```
 
@@ -22,3 +23,4 @@ Start of jupyter lab with uv:
 ```
 uv run --with jupyter jupyter lab
 ```
+If values in .env are changed, jupyther lab needs to be reloaded!
